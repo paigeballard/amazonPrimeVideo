@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amazon Prime Video</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+        <aside class="sidebar">
+            <button id="searchButton" class="search-button">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-table-cells-large"></i>
+                <i class="fa-regular fa-bookmark"></i>
+            </button>
+        </aside>
+        <div class="search-container" id="searchContainer">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search for movie">
+        </div>
+        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+        <!-- <i class="fa-solid fa-table-cells-large"></i>
+        <i class="fa-regular fa-bookmark"></i> -->
+       </nav>
+        <main>
+            <section class="hero">
+                <div class="hero-container">
+                    <h5>AMAZON ORIGINAL</h5>
+                    <h2 id="hero-title">You're Cordially</h2>
+                    <!-- <span id="hero-subtitle">INVITED</span> -->
+                    <p class="highlight" id="hero-release-date">Coming Soon - January 30, 2:00 AM</p>
+                    <!-- <p id="hero-info">Comedy  |  112 min  |  2025  |  R</p> -->
+                    <p id="hero-overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus culpa quod facilis? Dolore, ducimus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iusto recusandae nobis minus repudiandae quae veniam est. Inventore eaque incidunt vel reprehenderit laudantium officia nobis possimus deserunt accusamus exercitationem! Unde.</p>
+                </div>
+            </section>
+            <section class="middle-nav">
+                <button><i class="fa-solid fa-plus"></i></button>
+                <i class="fa-regular fa-circle-play"></i>
+                <i class="fa-regular fa-thumbs-up"></i>
+                <i class="fa-regular fa-thumbs-down"></i>
+                <i class="fa-solid fa-circle-info"></i>
+            </section>
+            <section class="carousel">
+                <h3>Customers Also Watched</h3>
+                <div class="carousel-container">
+                    <div class="movie-list" id="movieList"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
