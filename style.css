@@ -159,8 +159,6 @@ button {
 .movie-item {
     min-width: 150px;
     height: 200px;
-    /* background-size: cover;
-    background-position: center; */
     background: center/cover no-repeat;
     position: relative;
     display: flex;
@@ -189,22 +187,14 @@ button {
         height: 100vh;
         align-items: start;
         justify-content: start;
-        /* overflow: hidden; */
     }
 
     .hero-container {
         width: 40%; 
     }
 
-    .hero-container h5 {
-        /* display: none; */
-    }
     .hero-container h2 {
         font-size: 30px;
-    }
-
-    .hero-container p {
-        /* display: none; */
     }
 
     .middle-nav {
